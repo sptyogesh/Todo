@@ -1,0 +1,324 @@
+body{
+    background-color: rebeccapurple;
+}
+.app-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 4% 0 5% 0;
+    font-size: 200%;
+}
+.login-container {
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 30%;
+    margin: 0 auto;
+  }
+  .login-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .login-input-field {
+    display: block;
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  .submit-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 8px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .signup-link {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .signup-text {
+    color: #3b82f6;
+    font-weight: bold;
+  }
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* User Info Section */
+.user-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.user-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.delete-account-btn {
+  background: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-account-btn:hover {
+  background: #c82333;
+}
+
+/* Todo List Header */
+.todo-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todo-list-header h2 {
+  font-size: 20px;
+}
+
+.add-todo-btn {
+  background: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-todo-btn:hover {
+  background: #0056b3;
+}
+
+/* Todo Filter Buttons */
+.todo-filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-filter-buttons button {
+  background: #e0e0e0;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-filter-buttons .active {
+  background: #007bff;
+  color: white;
+}
+
+/* Todo List */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Todo Actions */
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.history-btn,
+.delete-btn1,
+.view-btn,.completed {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.view-btn{
+  position: absolute; right: 24%;
+}
+.edit-btn {
+  position: absolute; right: 28%;
+}
+
+.history-btn {
+  position: absolute; right: 31%;
+}
+
+.delete-btn1 {
+  position: absolute; right: 35.5%;
+  border: none;
+}
+.completed {
+  position: absolute; right: 21%;
+  border: none;
+}
+.delete-btn1:hover {
+  background: #c82333;
+}
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.history-btn:hover {
+  background: #138496;
+}
+.view-btn:hover {
+  background: greenyellow;
+}
+.user-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-btn:hover {
+  background: #0056b3;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+  z-index: 100;
+}
+
+.dropdown-menu p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.logout-btn,
+.delete-btn {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout-btn {
+  background: #ff9800;
+  color: white;
+}
+
+.logout-btn:hover {
+  background: #e68900;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+/* Todo History Container */
+.history-container {
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .history-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table Styling */
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  /* Table Headers */
+  .history-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  /* Table Rows */
+  .history-table td {
+    padding: 10px;
+    border-bottom: 1px solid #494343;
+  }
+  
+  /* Alternating Row Colors */
+  .history-table tr:nth-child(even) {
+    background-color: #e4e3e3;
+  }
+  
+  /* First two columns to align left */
+  .history-table td:first-child,
+  .history-table td:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    .history-container {
+      padding: 10px;
+    }
+  
+    .history-table th,
+    .history-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
